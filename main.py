@@ -31,3 +31,12 @@ print(var_3 >= var_4)
 print(var_3 <= var_4)
 print(var_1 != var_2)
 print(var_3 == var_4)
+
+print('\nСравнение строковых типов')
+str_1 = "F"
+str_2 = "f"
+print(str_1 < str_2)
+print(ord(str_1))
+print(ord(str_2))
+print(chr(70))
+print(chr(102))
