@@ -87,3 +87,15 @@ answer_2 = "кот"
 answer_3 = "корова"
 answer_4 = "черепаха"
 answer_5 = "медведь"
+
+result = 0
+print(question_1)
+user_answer = input()
+if user_answer == answer_1:
+  result+=1
+  print('Вы ответили правильно!')
+print(question_1)
+user_answer = input()
+if user_answer == answer_1:
+  result+=1
+ print('Вы ответили правильно!')
