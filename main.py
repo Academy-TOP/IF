@@ -42,5 +42,24 @@ print(chr(70))
 print(chr(102))
 
 print('\nУсловная конструкция if')
-if 1<2:
- print("Действительно, 1 < 2")
+if 1>2:
+ print("Действительно, 1 > 2")
+print ('1>2 - ложь!')
+
+print('\nЛогические операции')
+var_1 = 5
+if var_1 > 1 and var_1 < 10:
+ print(var_1 + 1)
+
+var_1 = 15
+if var_1 < 1 or var_1 > 10:
+ print(var_1 + 5)
+
+list_1 = [1, 2, 4, 6, 8, 12]
+var_1 = 6
+if var_1 in list_1:
+ print("Really, list_1 contains the variable var_1")
+
+var_1 = 1
+if type(var_1) is int:
+ print("Really, var_1 is integer")
