@@ -115,4 +115,4 @@ if user_answer.lower() == answer_5:
   result+=1
   print('Вы ответили правильно!')
 
-print('Вы ответили на ', result, 'правильно!')
+print('Вы ответили на ', result, 'вопроса правильно!')
