@@ -91,26 +91,28 @@ answer_5 = "медведь"
 result = 0
 print(question_1)
 user_answer = input()
-if user_answer == answer_1:
+if user_answer.lower() == answer_1:
   result+=1
   print('Вы ответили правильно!')
 print(question_2)
 user_answer = input()
-if user_answer == answer_2:
+if user_answer.lower() == answer_2:
   result+=1
   print('Вы ответили правильно!')
 print(question_3)
 user_answer = input()
-if user_answer == answer_3:
+if user_answer.lower() == answer_3:
   result+=1
   print('Вы ответили правильно!')
 print(question_4)
 user_answer = input()
-if user_answer == answer_4:
+if user_answer.lower() == answer_4:
   result+=1
   print('Вы ответили правильно!')
 print(question_5)
 user_answer = input()
-if user_answer == answer_5:
+if user_answer.lower() == answer_5:
   result+=1
   print('Вы ответили правильно!')
+
+print('Вы ответили на ', result, 'правильно!')
