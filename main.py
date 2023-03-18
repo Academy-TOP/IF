@@ -94,8 +94,23 @@ user_answer = input()
 if user_answer == answer_1:
   result+=1
   print('Вы ответили правильно!')
-print(question_1)
+print(question_2)
 user_answer = input()
-if user_answer == answer_1:
+if user_answer == answer_2:
   result+=1
- print('Вы ответили правильно!')
+  print('Вы ответили правильно!')
+print(question_3)
+user_answer = input()
+if user_answer == answer_3:
+  result+=1
+  print('Вы ответили правильно!')
+print(question_4)
+user_answer = input()
+if user_answer == answer_4:
+  result+=1
+  print('Вы ответили правильно!')
+print(question_5)
+user_answer = input()
+if user_answer == answer_5:
+  result+=1
+  print('Вы ответили правильно!')
